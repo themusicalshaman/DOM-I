@@ -42,7 +42,8 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //nav bar
-document.querySelector("a").textContent = 'Services'
+document.querySelector("a:nth-of-type(1)").textContent = 'Services'
+
 document.querySelector("a:nth-of-type(2)").textContent = 'Product'
 document.querySelector("a:nth-of-type(3)").textContent = 'Vision'
 document.querySelector("a:nth-of-type(4)").textContent = 'Features'
@@ -54,6 +55,8 @@ document.querySelector('a:nth-of-type(3)').style.color = 'green'
 document.querySelector('a:nth-of-type(4)').style.color = 'green'
 document.querySelector('a:nth-of-type(5)').style.color = 'green'
 document.querySelector('a:nth-of-type(6)').style.color = 'green'
+// document.appendChild('nav').textContent = 'Dogs'
+// document.appendChild(nav) = Dogs
 
 //button
 const button = document.querySelector('button')
